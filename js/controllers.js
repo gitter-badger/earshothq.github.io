@@ -10,10 +10,9 @@ angular.module('earshotHq', ['ngAnimate'])
                                          var text = element.text()
                                          element.text('')
 
-                                         scope.rotHeadIdx = 0;
-                                         
                                          var fonts = eval(attrs.fonts);
-
+                                         scope.rotHeadIdx = Math.floor(Math.random() * fonts.length);
+                                         
                                          function rotateHeader() {
                                              angular.forEach(element.children(), function(toRem) {
                                                  $animate.leave(toRem)
