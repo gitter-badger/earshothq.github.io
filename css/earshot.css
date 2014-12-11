@@ -130,6 +130,48 @@ h1#PressStart2P {
     font-size: 80pt;
 }
 
+.ng-enter 
+{
+    -webkit-transition: 1s;
+    transition: 3s;
+    opacity:0;
+}
+.ng-enter-active 
+{
+    opacity:1;
+}
+
+
+.ng-leave 
+{
+    -webkit-transition: 1s;
+    transition: 2s;
+}
+.ng-leave-active 
+{
+    opacity:0;
+}
+
+.fade {
+  transition:1s linear all;
+  opacity:0;
+}
+
+.fade-add {
+  /* remember to place a 0s transition here
+     to ensure that the styles are applied instantly
+     even if the element already has a transition style */
+  transition:0s linear all;
+
+  /* starting CSS styles */
+  opacity:1;
+}
+.fade-add.fade-add-active {
+  /* this will be the length of the animation */
+  transition:1s linear all;
+  opacity:0;
+}
+
 .fader-animation.ng-enter,
 .fader-animation.ng-leave {
     -webkit-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
