@@ -32,7 +32,7 @@ angular.module('earshotHq', ['ngAnimate'])
                                          rotateHeader();
                                          timeoutId = $interval(function() {
                                              rotateHeader();
-                                         }, 50000);
+                                         }, 5000);
                                          
                                      }
                                  };
