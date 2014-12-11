@@ -1,6 +1,5 @@
 angular.module('earshotHq', ['ngAnimate'])
-    .controller('HomeCtrl', ['$scope', function($scope) {
-        $scope.format = 'M/d/yy h:mm:ss a';
+    .controller('HomeCtrl', ['$scope', '$window', function($scope, $window) {
     }]) 
     .directive('rotatingHeader', ['$animate', '$interval', '$compile',
                              function ($animate, $interval, $compile) {
@@ -34,7 +33,7 @@ angular.module('earshotHq', ['ngAnimate'])
                                          rotateHeader();
                                          timeoutId = $interval(function() {
                                              rotateHeader();
-                                         }, 5000);
+                                         }, 50000);
                                          
                                      }
                                  };

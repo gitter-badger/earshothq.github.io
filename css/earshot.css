@@ -1,127 +1,133 @@
+html {
+    background: url('../images/earshotbg.png') no-repeat center center fixed;
+    background-size: cover;  
+}
+rotating-header {
+    background-color : transparent;
+    text-align : center;
+}
+
+body {
+    color : #ffffff;
+    background-color : transparent;
+}
+
+h1 {
+    background-color : transparent;
+}
+
+#slogan {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size : 20pt;
+}
+
+
+.centered-container {
+  position: fixed;
+  top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    display:table;
+    pointer-events: none;
+    z-index:9999;
+}
+
+.centered {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#copyright {
+    position : absolute;
+    bottom : 0;
+    text-align : center;
+    width : 100%;
+}
+
 h1#Iceland {
     font-family: 'Iceland', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 h1#Yesteryear {
     font-family: 'Yesteryear', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 h1#Satisfy {
     font-family: 'Satisfy', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 h1#Lemon {
     font-family: 'Lemon', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 h1#OleoScript {
     font-family: 'Oleo Script', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 h1#DancingScript {
     font-family: 'Dancing Script', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 h1#Yellowtail {
     font-family: 'Yellowtail', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 h1#Pacifico {
     font-family: 'Pacifico', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 h1#CherryCreamSoda {
     font-family: 'Cherry Cream Soda', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 h1#Audiowide {
     font-family: 'Audiowide', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 h1#Cookie {
     font-family: 'Cookie', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 h1#PermanentMarker {
     font-family: 'Permanent Marker', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 
 h1#Yellowtail {
     font-family: 'Yellowtail', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 
 h1#PaytoneOne {
     font-family: 'Paytone One', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 h1#SansitaOne {
     font-family: 'Sansita One', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 h1#FugazOne {
     font-family: 'Fugaz One', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 h1#KaushanScript {
     font-family: 'Kaushan Script', serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 h1#CevicheOne {
     font-family: 'Ceviche One', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 h1#Playball {
     font-family: 'Playball', sans-serif;
-    font-size: 70pt;
+    font-size: 80pt;
 }
 
 h1#PressStart2P {
     font-family: 'Press Start 2P', sans-serif;
-    font-size: 70pt;
-}
-
-.ng-enter 
-{
-    -webkit-transition: 1s;
-    transition: 3s;
-    opacity:0;
-}
-.ng-enter-active 
-{
-    opacity:1;
-}
-
-
-.ng-leave 
-{
-    -webkit-transition: 1s;
-    transition: 2s;
-}
-.ng-leave-active 
-{
-    opacity:0;
-}
-
-.fade {
-  transition:1s linear all;
-  opacity:0;
-}
-
-.fade-add {
-  /* remember to place a 0s transition here
-     to ensure that the styles are applied instantly
-     even if the element already has a transition style */
-  transition:0s linear all;
-
-  /* starting CSS styles */
-  opacity:1;
-}
-.fade-add.fade-add-active {
-  /* this will be the length of the animation */
-  transition:1s linear all;
-  opacity:0;
+    font-size: 80pt;
 }
 
 .fader-animation.ng-enter,
