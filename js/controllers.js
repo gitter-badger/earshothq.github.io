@@ -19,7 +19,8 @@ angular.module('earshotHq', ['ngAnimate'])
                                                  toRem.remove()
                                              })
                                              
-                                             var font = fonts[scope.rotHeadIdx++];
+                                             var font = fonts[scope.rotHeadIdx < fonts.length ? scope.rotHeadIdx++ : 0];
+                                             
                                              
                                              $animate.enter(angular.element('<h1 id="' + font + '">' + text + '</h1>'), element)
                                          }
